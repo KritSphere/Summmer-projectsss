@@ -10,7 +10,7 @@ function generateIntro() {
         document.getElementById("gender").value;
 
     const title =
-        gender === "male" ? "Mr." : "Mrs.";
+        gender === "male" ? "Mr." : "Miss/Mrs.";
 
     let introduction = "";
 
