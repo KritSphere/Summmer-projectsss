@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Project Introduction Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📐 Summer Project Introduction Generator</h1>
+
+        <p class="subtitle">
+            Generate your project introduction instantly.
+        </p>
+
+        <label for="subject">Subject</label>
+        <select id="subject">
+            <option value="English">English</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Science">Science</option>
+            <option value="Social Science">Social Science</option>
+        </select>
+
+        <label for="teacher">Teacher Name</label>
+        <input
+            type="text"
+            id="teacher"
+            placeholder="Enter teacher name"
+        >
+
+        <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <button onclick="generateIntro()">
+            Generate Introduction
+        </button>
+
+        <button class="copy-btn" onclick="copyText()">
+            📋 Copy to Clipboard
+        </button>
+
+        <div id="output">
+Select a subject, enter your teacher's name, and click "Generate Introduction".
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
