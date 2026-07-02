@@ -13,7 +13,7 @@ Hello Mrs. Deepti!👋
 
 This is an introduction for my English multidisciplinary summer project.😁
 
-What happens when geography meets imagination?🎀 You get an epic road trip across India! Welcome to "Roadtrip BHARAT: Nagpur to Puri."😎
+What happens when culture meets Social Media?🎀 You get an epic view of vocations across India!"😎
 
 In this assignment, we explore the breathtaking route connecting Maharashtra and Odisha.🎈 Along the journey, each vocation uncovers a unique cultural treasure, capturing its essence through expressive acrostic poetry✍
 
