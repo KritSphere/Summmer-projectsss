@@ -3,30 +3,21 @@ function generateIntro() {
     const subject =
         document.getElementById("subject").value.trim();
 
-    const teacher =
-        document.getElementById("teacher").value.trim();
-
-    const gender =
-        document.getElementById("gender").value;
-
-    const title =
-        gender === "male" ? "Mr." : "Miss/Mrs.";
-
     let introduction = "";
 
     switch(subject.toLowerCase()) {
 
         case "english":
             introduction = `
-Hello ${title} ${teacher}!👋
+Hello Mrs. Deepti!👋
 
 This is an introduction for my English multidisciplinary summer project.😁
 
 What happens when geography meets imagination?🎀 You get an epic road trip across India! Welcome to "Roadtrip BHARAT: Nagpur to Puri."😎
 
-In this assignment, the letters B, H, A, R, A, and T come alive as six friends exploring the breathtaking route connecting Maharashtra and Odisha.🎈 Along their journey, each traveler uncovers a unique cultural treasure, capturing its essence through expressive acrostic poetry✍
+In this assignment, we explore the breathtaking route connecting Maharashtra and Odisha.🎈 Along the journey, each vocation uncovers a unique cultural treasure, capturing its essence through expressive acrostic poetry✍
 
-To commemorate their travels, they also have designed symbolic passport stamps that celebrate how different cultures, languages, and traditions seamlessly blend into 'Unity in Diversity.🤝
+To commemorate their hardwork, Let us share their work at #MittiSeDosti and seamlessly blend into 'Unity in Diversity.🤝
 This is Kritarth,😎
 Thank you!😉
 `;
@@ -36,7 +27,7 @@ Thank you!😉
         case "mathematics":
         case "maths":
             introduction = `
-Hello ${title} ${teacher}!👋
+Hello Mrs. Deepa!👋
 
 This is an introduction for my Mathematics multidisciplinary summer project.🙃
 
@@ -52,7 +43,7 @@ Thank you!😉
 
         case "science":
             introduction = `
-Hello ${title} ${teacher}!👋
+Hello Ms. Rani!👋
 
 This is an introduction for my Science multidisciplinary summer project.🔬🧪👨‍🔬
 
@@ -72,7 +63,7 @@ Thank you!😉
         case "sst":
         case "social":
             introduction = `
-Hello ${title} ${teacher}!👋
+Hello Ms. Smita!👋
 
 This is an introduction for my Social Science multidisciplinary summer project.⚖👨‍⚖️
 
